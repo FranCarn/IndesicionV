@@ -45,6 +45,8 @@ export default {
         this.answer = answer;
       } catch (error) {
         console.log(error);
+        this.answer = "Cannot connect to API";
+        this.url = null;
       }
     },
   },

@@ -1,6 +1,6 @@
 <template>
   <h2>{{ customTitle }}</h2>
-  <p>{{ counter }}</p>
+  <p data-testid="counter">{{ counter }}</p>
   <button @click="decrement">- 1</button>
   <button @click="increment">+ 1</button>
 

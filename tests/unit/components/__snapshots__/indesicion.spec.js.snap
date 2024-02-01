@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Indesicion component should match with snapshop 1`] = `
+<!--v-if-->
+<div class="bg-dark">
+  <div class="indesicion-container"><input type="text" placeholder="Make a quest...">
+    <p>Use question sign's</p>
+    <!--v-if-->
+  </div>
+</div>
+`;
